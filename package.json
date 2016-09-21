@@ -1,11 +1,12 @@
 {
-  "name": "React Chat App",
+  "name": "React_Chat_App",
   "version": "0.0.1",
   "author": "Nick Arlt",
   "dependencies": [],
   "devDependencies": {
     "express": "^4.14.0",
     "http": "0.0.0",
+    "nodemon": "^1.10.2",
     "socket.io": "^1.4.8"
   }
 }
