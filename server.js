@@ -12,11 +12,8 @@ io.on('connection', function(socket){
     console.log(msg);
     io.emit("receive-message", msg);
   })
-  socket.on("test", function(){
-    console.log("Mounted")
-  })
 });
 
 http.listen('3000', function(){
-  console.log("we are connected")
+  console.log("we are connected");
 });
