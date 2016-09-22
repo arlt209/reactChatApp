@@ -6,6 +6,7 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
+// connect //
 io.on('connection', function(socket){
   console.log("we have a connection");
   socket.on("new-message", function(msg){

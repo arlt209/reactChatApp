@@ -1,5 +1,7 @@
 # reactChatApp
 
+start server::  $ node server 
+
 ## This is a chat app created using the following:
 
 1. React.js/ JSX
@@ -8,3 +10,10 @@
 4. Express
 5. BootStrap
 6. socket.io
+
+## LEFT TO DO:
+1. create user avatars
+2. implement a component to create and store usernames and avatars.
+3. ideas? 
+4. add styling.
+5. deploy somewhere aws or cloud

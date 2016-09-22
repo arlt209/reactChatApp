@@ -36,7 +36,7 @@ var ChatApp = React.createClass({
   },
 
 
-  pickUser: function(){
+  typeUserName: function(){
     var user = document.getElementById("user").value;
     this.setState({user: user})
   },
@@ -57,7 +57,7 @@ var ChatApp = React.createClass({
             {messages}
           </ul>
           <input id="message" type="text" /> <button onClick={ () => self.submitMessage()}>Send</button><br/>
-          <input id="user" type="text" placeholder="choose username" /> <button onClick={() => self.pickUser()}>select a username</button>
+          <input id="user" type="text" placeholder="choose username" /> <button onClick={() => self.typeUserName()}>type username</button>
         </div>
       );
   }
